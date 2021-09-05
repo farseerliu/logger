@@ -1,0 +1,15 @@
+{
+    "name": "farseerliu/logger",
+    "autoload": {
+        "psr-4": {
+            "FarseerLiu\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FarseerLiu",
+            "email": "js@box-fairy.com"
+        }
+    ],
+    "require": {}
+}
