@@ -5,6 +5,6 @@ class Logger
 {
     public function show()
     {
-        echo "adfadsfasdf";
+        echo "ddd";
     }
 }
