@@ -11,5 +11,7 @@
             "email": "js@box-fairy.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-json": "*"
+    }
 }
