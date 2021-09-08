@@ -1,6 +1,6 @@
 <?php
 
-namespace FarseerLiu\Logger;
+namespace FarseerLiu\Logger\Core;
 
 class ES
 {

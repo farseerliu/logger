@@ -2,6 +2,8 @@
 
 namespace FarseerLiu\Logger;
 
+use FarseerLiu\Logger\Core\Http;
+
 class Logger
 {
 
