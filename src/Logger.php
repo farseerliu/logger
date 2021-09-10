@@ -3,6 +3,7 @@
 namespace FarseerLiu\Logger;
 
 use FarseerLiu\Logger\Core\Http;
+use FarseerLiu\Logger\Core\Client;
 
 class Logger
 {
@@ -23,9 +24,14 @@ class Logger
      *      日志级别类型    info（详情），error（错误），
      * @param $data
      */
-    public function save($level, $data)
+    public function save($who, $what, $where, $how)
     {
-        $client = new Client($data);
-        $client->send();
+        $client = new Client($who, $what, $where, $how);
+        $client->save();
+    }
+
+    protected function config()
+    {
+
     }
 }

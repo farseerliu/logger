@@ -18,7 +18,7 @@ class Client
     /**
      * 发送消息
      */
-    public function send()
+    public function save()
     {
         $send_type = config('send_type');
         $this->$send_type();
@@ -39,4 +39,6 @@ class Client
     {
         $data = $this->log_data;
     }
+
+
 }
